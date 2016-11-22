@@ -1,0 +1,10 @@
+Youse:
+#Home
+  logoText: 'Youse'
+  myAccountText: 'MINHA CONTA'
+
+#LoginPage
+  loginText: 'Faça seu login para acessar sua conta Youse.'
+
+#RegisterPage
+  registerText: 'Cadastre-se para ser um Youse'
