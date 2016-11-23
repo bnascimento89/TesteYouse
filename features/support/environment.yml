@@ -1,6 +1,5 @@
-Youse:
 #Home
-  logoText: 'Youse'
+  bannerText: 'somos a Youse'
   myAccountText: 'MINHA CONTA'
 
 #LoginPage
@@ -8,3 +7,7 @@ Youse:
 
 #RegisterPage
   registerText: 'Cadastre-se para ser um Youse'
+
+ #AccountPage 
+  registerSucess: 'Bem vindo! Você realizou seu registro com sucesso.'
+  loginSucess: 'Login efetuado com sucesso.'

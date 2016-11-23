@@ -1,6 +1,6 @@
 Então(/^eu devo visualizar a página de login$/) do
   @loginPage = LoginPageModule.new
-  @loginPage.loginPageText.has_text?('Faça seu login para acessar sua conta Youse.')
+  @loginPage.loginPageText.assert_text($caps["loginText"])
 end
 
 Então(/^eu clique no botão Cadastre\-se$/) do
@@ -8,19 +8,18 @@ Então(/^eu clique no botão Cadastre\-se$/) do
   @loginPage.registerBtn.click
 end
 
-Então(/^Eu devo visualizar a página de cadastro$/) do
-  @register = registerModule.new
-  @register.registerPageText.has_text?('Cadastre-se para ser um Youser')
+Então(/^preencha o campo email$/) do
+  @loginPage = LoginPageModule.new
+  @loginPage.emailField.set $email.to_s
+  @loginPage.submitBtn.click
 end
 
-Então(/^eu preencha todos os campos corretamente$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+Então(/^preencha o campo senha$/) do
+  @loginPage = LoginPageModule.new
+  @loginPage.pwdField.set $password.to_s
 end
 
-Então(/^clique no botão enviar cadastro$/) do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Então(/^eu devo ver uma mensagem de registrado com sucesso$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+Então(/^clique no botão entrar$/) do
+  @loginPage = LoginPageModule.new
+  @loginPage.submitBtn.click
 end
