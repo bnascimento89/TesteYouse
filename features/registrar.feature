@@ -6,7 +6,7 @@ Funcionalidade:Registrar
 		Eu desejo me registar no site www.youse.com.br
 		
 
-@registrar @registrarUsuario
+@registrar
 Cenario: Registar um novo usuário
 Dado que eu esteja no site da Youse
 E que clique no botão minha conta
