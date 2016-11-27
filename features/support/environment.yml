@@ -11,3 +11,22 @@
  #AccountPage 
   registerSucess: 'Bem vindo! Você realizou seu registro com sucesso.'
   loginSucess: 'Login efetuado com sucesso.'
+
+#Quotation data
+  nome: 'Bruno Nascimento'
+  pessoaSegurada: 'pra mim'
+  telefone: '11999999999'
+  email: 'brucn89@gmail.com'
+  marca: 'FORD'
+  modelo: "FIESTA"
+  anoModelo: '2013'
+  versao: 'FIESTA 1.6 16V FLEX MEC. 5P (Gasolina / Flex)'
+  tipoUso: 'particular'
+  possuiCarro: 'já tenho'
+  usandoCarro: 'já estou utilizando'
+  cep: '05734140'
+  seguradoOpcao: 'sou'
+  sexo: 'masculino'
+  dataNascimento: '19011989'
+  sinistro: 'tive há 2 anos'
+  

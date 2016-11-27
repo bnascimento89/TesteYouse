@@ -5,6 +5,6 @@ class HomeModule < SitePrism::Page
 
 	element :homeText, '.video-banner .extra-bold'
 	element :myAccount, '#container > div.site-wrapper > header > section > div > div > a.nav__link-account.t_hide.m_hide > span'
-	element :autoMore, '.auto .link-more.m_hide'
+	element :autoMore, 'li:nth-child(3) > a.nav__link'
 end
 	
