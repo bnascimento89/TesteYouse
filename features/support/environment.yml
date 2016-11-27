@@ -14,19 +14,32 @@
 
 #Quotation data
   nome: 'Bruno Nascimento'
-  pessoaSegurada: 'pra mim'
+  pra mim: 'true'
+  para outra pessoa: 'false'
   telefone: '11999999999'
-  email: 'brucn89@gmail.com'
+  email: 'testeyu@testeyu.com'
   marca: 'FORD'
   modelo: "FIESTA"
   anoModelo: '2013'
   versao: 'FIESTA 1.6 16V FLEX MEC. 5P (Gasolina / Flex)'
-  tipoUso: 'particular'
+  particular: 'auto|private'
   possuiCarro: 'já tenho'
-  usandoCarro: 'já estou utilizando'
+  já estou utilizando: 'true'
+  já tenho: 'true'
+  sou: 'true'
   cep: '05734140'
   seguradoOpcao: 'sou'
-  sexo: 'masculino'
   dataNascimento: '19011989'
-  sinistro: 'tive há 2 anos'
+  tive há 2 anos: '2'
+  masculino: 'male'
+
+  #PagesQuatation
+  sobrevoce: 'Oi, a gente quer conhecer você melhor, é rapidinho'
+  veiculo: 'Agora, fale um pouquinho sobre o seu carro.'
+  sugestoes: 'Essa é a parte mais legal: 
+bora deixar o seguro com a sua cara?'
+  assistencia: 'Sugestões de Assistências Youse para vc. 
+Conheça as assistências e serviços disponíveis pra você e deixe o seguro do seu jeito.'
+  pagamento: 'Aeee! Estamos quase lá. 
+Conta aí um pouquinho mais sobre vc.'
   
